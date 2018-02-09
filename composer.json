@@ -1,0 +1,40 @@
+{
+  "name": "reliv/access-control-interop",
+  "description": "General Interface for access control",
+  "type": "library",
+  "license": "ISC",
+  "keywords": [
+    "reliv",
+    "interop",
+    "psr",
+    "access",
+    "control",
+    "acl"
+  ],
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/reliv/access-control-interop",
+  "authors": [
+    {
+      "name": "James Jervis",
+      "email": "jjervis@relivinc.com",
+      "homepage": "https://github.com/jerv13"
+    },
+    {
+      "name": "Rod McNew",
+      "email": "rmcnew@relivinc.com",
+      "homepage": "https://github.com/rodmcnew"
+    }
+  ],
+  "require": {
+    "php": ">=7"
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Reliv\\AccessControlInterop\\": "/src"
+    }
+  }
+}
